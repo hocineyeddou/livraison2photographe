@@ -15,10 +15,29 @@
    color: white;
    //text-align: center;//
 }
-   
-@media only screen and (max-width: 390px) {
+    /* Styles pour cette Media Queries */
+
+@media only screen and (m-width: 390px) {
 .header__title-h1 {
   display: none;
    }
   }
-   /* Styles pour cette Media Queries */
+  
+
+
+   /*html prestation*/
+
+.header-prestation
+{
+background-color: black;
+ text-align: center;
+ font-size: 2rem;
+}
+.header-prestation-h1
+{
+   font-family: 'Courier New', Courier, monospace, serif;
+   color: white;
+   
+}
+
+
