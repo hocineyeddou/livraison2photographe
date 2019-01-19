@@ -19,24 +19,33 @@ font-size: 2rem;
 margin: 4rem;
 }
 /* Styles pour cette Media Queries */
-@media only screen and (min-width : 3OOpx) {
+
+/*@media only screen and (min-width : 321px) {
     .nav-menu{
          }
     }
- //nav-prestation html//   
+ /*nav-prestation html*/
+
     .nav-prestation
     {
         padding: 2rem;
         
-       //font-size: 0.5rem;//
-       // margin: 4rem;  //
+       /*font-size: 0.5rem;
+        margin: 4rem;  
         background-image: url(https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fdeco.2Fmaison-pratique.2Fpierre-blanche-recettes-mode-emploi-maison-propre-49942.2F14963139-1-fre-FR.2Fpierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.2Ejpg/748x372/quality/90/crop-from/center/pierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.jpeg) ;
         background-size:cover;
-        background-repeat:no-repeat;  
+        background-repeat:no-repeat; */
 
     }
     .h2-prestation{
 
         text-align: center;
     }
+/*nav-contact html*/
+    .nav-contact{
 
+        padding: 15rem;
+text-align: center;
+font-size: 2rem;
+margin: 4rem;
+    }

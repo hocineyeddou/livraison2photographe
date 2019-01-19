@@ -13,7 +13,7 @@
 
    font-family: 'Courier New', Courier, monospace, serif;
    color: white;
-   //text-align: center;//
+   /*text-align: center;*/
 }
     /* Styles pour cette Media Queries */
 
@@ -29,7 +29,7 @@
 
 .header-prestation
 {
-background-color: black;
+ background-color: black;
  text-align: center;
  font-size: 2rem;
 }
@@ -39,5 +39,16 @@ background-color: black;
    color: white;
    
 }
+/*html conatact*/
+.header-contact{
+background-color: black;
+ text-align: center;
+ font-size: 2rem;
+   
+}
+.header__contact-h1
+{
+   font-family: 'Courier New', Courier, monospace, serif;
+   color: white;
 
-
+}

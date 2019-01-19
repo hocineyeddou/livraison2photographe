@@ -16,14 +16,28 @@
   margin: 4rem; }
 
 /* Styles pour cette Media Queries */
+/*@media only screen and (min-width : 321px) {
+    .nav-menu{
+         }
+    }
+ /*nav-prestation html*/
 .nav-prestation {
   padding: 2rem;
-  background-image: url(https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fdeco.2Fmaison-pratique.2Fpierre-blanche-recettes-mode-emploi-maison-propre-49942.2F14963139-1-fre-FR.2Fpierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.2Ejpg/748x372/quality/90/crop-from/center/pierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  /*font-size: 0.5rem;
+   margin: 4rem;  
+   background-image: url(https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fdeco.2Fmaison-pratique.2Fpierre-blanche-recettes-mode-emploi-maison-propre-49942.2F14963139-1-fre-FR.2Fpierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.2Ejpg/748x372/quality/90/crop-from/center/pierre-blanche-recettes-et-mode-d-emploi-pour-une-maison-propre.jpeg) ;
+   background-size:cover;
+   background-repeat:no-repeat; */ }
 
 .h2-prestation {
   text-align: center; }
+
+/*nav-contact html*/
+.nav-contact {
+  padding: 15rem;
+  text-align: center;
+  font-size: 2rem;
+  margin: 4rem; }
 
 footer {
   grid-column: 1 / 2;
@@ -47,6 +61,13 @@ footer {
   background-repeat: no-repeat;
   z-index: -1; }
 
+/*footer contact*/
+.footer-contact {
+  background-image: url("https://previews.123rf.com/images/iulias/iulias1412/iulias141200676/34627317-retro-background-avec-de-vieux-texture-grunge-avec-diff%C3%A9rents-mod%C3%A8les-de-couleur-gris-noir-blanc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
+
 .header__title {
   grid-column: 1 / 2;
   grid-rows: 1 / 2;
@@ -56,7 +77,8 @@ footer {
 
 .header__title-h1 {
   font-family: 'Courier New', Courier, monospace, serif;
-  color: white; }
+  color: white;
+  /*text-align: center;*/ }
 
 /* Styles pour cette Media Queries */
 @media only screen and (m-width: 390px) {
@@ -69,6 +91,16 @@ footer {
   font-size: 2rem; }
 
 .header-prestation-h1 {
+  font-family: 'Courier New', Courier, monospace, serif;
+  color: white; }
+
+/*html conatact*/
+.header-contact {
+  background-color: black;
+  text-align: center;
+  font-size: 2rem; }
+
+.header__contact-h1 {
   font-family: 'Courier New', Courier, monospace, serif;
   color: white; }
 
@@ -102,6 +134,29 @@ main {
   grid-row: 3/4; }
 
 .footer-prestation {
+  grid-column: 1/2;
+  grid-row: 4/5; }
+
+/*contact html*/
+.body-contact {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 25vh); }
+
+.header-contact {
+  grid-column: 1/2;
+  grid-row: 1/2; }
+
+.nav-contact {
+  grid-column: 1/2;
+  grid-row: 2/3; }
+
+.main-contact {
+  grid-column: 1/2;
+  grid-row: 3/4; }
+
+.footer-contact {
   grid-column: 1/2;
   grid-row: 4/5; }
 
