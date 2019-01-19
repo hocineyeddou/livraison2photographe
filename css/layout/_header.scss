@@ -16,9 +16,9 @@
    //text-align: center;//
 }
    
-@media only screen and (max-device-width:300px) {
-   .header__title-h1  {
-  
+@media only screen and (max-width: 390px) {
+.header__title-h1 {
+  display: none;
    }
   }
    /* Styles pour cette Media Queries */
