@@ -1,0 +1,24 @@
+.header__title
+{   
+ 
+  grid-column: 1 / 2;
+  grid-rows:1 / 2;
+
+ background-color: black;
+ text-align: center;
+ font-size: 2rem;
+}
+
+.header__title-h1{
+
+   font-family: 'Courier New', Courier, monospace, serif;
+   color: white;
+   //text-align: center;//
+}
+   
+@media only screen and (max-device-width:300px) {
+   .header__title-h1  {
+  
+   }
+  }
+   /* Styles pour cette Media Queries */
