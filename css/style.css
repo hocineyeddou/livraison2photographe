@@ -34,10 +34,7 @@
 
 /*nav-contact html*/
 .nav-contact {
-  padding: 15rem;
-  text-align: center;
-  font-size: 2rem;
-  margin: 4rem; }
+  padding: 2rem; }
 
 footer {
   grid-column: 1 / 2;
@@ -55,6 +52,7 @@ footer {
   font-size: 3rem;
   padding: 2rem; }
 
+/*footer prestation*/
 .footer-prestation {
   background-image: url("https://previews.123rf.com/images/iulias/iulias1412/iulias141200676/34627317-retro-background-avec-de-vieux-texture-grunge-avec-diff%C3%A9rents-mod%C3%A8les-de-couleur-gris-noir-blanc.jpg");
   background-size: cover;
@@ -70,7 +68,7 @@ footer {
 
 .header__title {
   grid-column: 1 / 2;
-  grid-rows: 1 / 2;
+  grid-row: 1 / 2;
   background-color: black;
   text-align: center;
   font-size: 2rem; }
@@ -118,7 +116,7 @@ main {
 .body-prestation {
   width: 100vw;
   display: grid;
-  grid-template-column: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(4, 25vh); }
 
 .header-prestation {
